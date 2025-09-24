@@ -31,7 +31,5 @@ Thus, the result should be [1,0].
 
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
-        firstInteger = int("".join(str(d) for d in digits))
-        finalInteger = firstInteger + 1
-        finalDigits = [int(digit) for digit in str(finalInteger)]
-        return finalDigits
+        finalInteger = int("".join(str(d) for d in digits)) + 1
+        return [int(digit) for digit in str(finalInteger)]

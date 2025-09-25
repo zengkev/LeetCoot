@@ -20,7 +20,7 @@ Explanation: The square root of 8 is 2.82842..., and since we round it down to t
 '''
 class Solution:
     def mySqrt(self, x: int) -> int:
-        if x < 0:
+        if x <= 0:
             return 0
         
         guess = x / 2

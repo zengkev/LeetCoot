@@ -26,6 +26,7 @@ An integer is a palindrome when it reads the same forward and backward.
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:
+        # convert to string and match in reverse
         return str(x) == str(x)[::-1]
 
 '''

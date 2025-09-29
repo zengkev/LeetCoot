@@ -26,8 +26,8 @@ Output: false
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         # self.val = val
-#         self.left = left
-#         self.right = right
+        # self.left = left
+        # self.right = right
 
         # Classic recursive solution
         # Case when both are none
